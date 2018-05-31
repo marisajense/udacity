@@ -1,0 +1,46 @@
+@media screen and (min-width: 250px) and (max-width: 700px) {
+  .my-name {
+    font-size: 40px;
+  }
+  .my-title {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 400px) {
+  .header img {
+    height: 20px;
+    width: 20px;
+    margin: -73px 0px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .header img {
+    height: 50px;
+    width: 50px;
+    margin: -72px 5px;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 750px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 750px) {
+  .color-p {
+    font-size: 30px;
+    line-height: 90px
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+  .color-p {
+    font-size: 18px;
+    line-height: 90px
+  }
+}
